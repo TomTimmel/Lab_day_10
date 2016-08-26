@@ -1,3 +1,4 @@
+
 .container {
   width: 900px;
   margin: 0 auto
@@ -24,4 +25,67 @@ h1 {
   font-size: 8px;
   color: grey;
   text-align: center;
+  
+body {
+  margin:0 auto;
+}
+
+nav {
+  position:fixed;
+  height:70px;
+  color:#000;
+  background-color:#FFF;
+  width:100%;
+  margin-top:-20px;
+}
+
+.navBodyleft {
+  float:left;
+  display:inline-block;
+  padding-top:15px;
+  padding-left:10px;
+}
+
+.navBodyright {
+  float:right;
+  display:inline-block;
+  text-align:right;
+  padding-top:20px;
+  padding-right:10px;
+}
+
+.navHeadLogo {
+  font-family: 'Yellowtail', cursive;
+  font-size:28px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.navHeadTagline {
+  font-family: 'Titillium Web', sans-serif;
+  line-height:0px;
+  font-size:12px;
+  margin-top:0px;
+}
+
+.forkimg {
+  height:50px;
+  display:inline-block;
+}
+
+.logotext {
+  display:inline-block;
+  vertical-align: top;
+}
+
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+.headshot {
+  float:left;
+  vertical-align:top;
+>>>>>>> 4a6961b389525047a0ed843aaef6907ebea23342
 }
