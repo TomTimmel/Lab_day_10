@@ -1,0 +1,27 @@
+.container {
+  width: 900px;
+  margin: 0 auto
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+}
+#Asap {
+  display: inline;
+  float:left;
+  font-family: 'Asap', sans-serif;
+  font-size: 8px;
+  color: grey;
+}
+#print {
+  display: inline;
+  float: right;
+}
+.section2 p{
+  text-indent: 10px;
+}
+.footer {
+  font-size: 8px;
+  color: grey;
+  text-align: center;
+}
