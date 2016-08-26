@@ -1,5 +1,17 @@
 body {
   margin:0 auto;
+  width:600px;
+}
+
+div.container {
+  padding:10px;
+}
+
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+  width:600px;
 }
 
 nav {
@@ -7,23 +19,22 @@ nav {
   height:70px;
   color:#000;
   background-color:#FFF;
-  width:100%;
+  width:600px;
+  padding-bottom:5px;
   margin-top:-20px;
 }
 
 .navBodyleft {
   float:left;
   display:inline-block;
-  padding-top:15px;
-  padding-left:10px;
+  padding-top:20px;
 }
 
 .navBodyright {
   float:right;
   display:inline-block;
-  text-align:right;
-  padding-top:20px;
-  padding-right:10px;
+  padding-top:25px;
+  padding-right:20px;
 }
 
 .navHeadLogo {
@@ -50,13 +61,52 @@ nav {
   vertical-align: top;
 }
 
-hr {
-	height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-    border: 0;
-}
-
 .headshot {
   float:left;
   vertical-align:top;
+  padding-right:10px;
 }
+
+div.section1 {
+  padding-top:50px;
+  height:70px;
+}
+
+img.chocimg {
+  width:100%;
+  wid
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  line-height:5px;
+  margin-bottom:10px;
+}
+#Asap {
+  display: inline;
+  float:left;
+  font-family: 'Asap', sans-serif;
+  font-size: 8px;
+  color: grey;
+}
+#print {
+  display: inline;
+  float: right;
+}
+.section2 p{
+  text-indent: 10px;
+  font-family:'Georgia', serif;
+  font-size: 14px;
+  line-height: 20px;;
+  color:#666;
+}
+
+p.button {
+  text-align:center;
+}
+
+.footer {
+  font-size: 8px;
+  color: grey;
+  text-align: center;
