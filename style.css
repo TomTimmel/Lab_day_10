@@ -9,6 +9,21 @@
   background-repeat: no-repeat;
 }
 
+.left{
+  display: none;
+  float:left;
+  padding: 20px;
+}
+
+.right{
+  display: none;
+  float:right;
+  padding: 20px;
+}
+
+.section4{
+  clear: left;
+}
 /*code used from http://webdesign.tutsplus.com/articles/quick-tip-easy-css3-checkboxes-and-radio-buttons--webdesign-8953 */
 /* creating checkbox input lines*/
 input[type="checkbox"] {
