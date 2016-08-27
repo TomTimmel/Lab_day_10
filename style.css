@@ -1,3 +1,44 @@
+.section3 p{
+  font-family: 'comic-sans', sans-serif;
+  margin-left: 100px;
+}
+
+.section3{
+  background-image: url("images/list-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left{
+  display: none;
+  float:left;
+  padding: 20px;
+}
+
+.right{
+  display: none;
+  float:right;
+  padding: 20px;
+}
+
+/*code used from http://webdesign.tutsplus.com/articles/quick-tip-easy-css3-checkboxes-and-radio-buttons--webdesign-8953 */
+/* creating checkbox input lines*/
+input[type="checkbox"] {
+}
+
+/* design of the checkbox*/
+input[type="checkbox"] + label span {
+  display:inline-block;
+  width:19px;
+  height:19px;
+  margin:-1px 4px 0 0;
+  vertical-align:middle;
+  cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3);
+
 body {
   margin:0 auto;
 }
@@ -83,6 +124,10 @@ h1 {
 }
 .section2 p{
   text-indent: 15px;
+}
+
+.section4 {
+  clear: left;
 }
 
 .section4 img{
