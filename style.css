@@ -1,18 +1,5 @@
-
 body {
   margin:0 auto;
-  width:600px;
-}
-
-div.container {
-  padding:10px;
-}
-
-hr {
-	height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-    border: 0;
-  width:600px;
 }
 
 nav {
@@ -20,22 +7,23 @@ nav {
   height:70px;
   color:#000;
   background-color:#FFF;
-  width:600px;
-  padding-bottom:5px;
+  width:100%;
   margin-top:-20px;
 }
 
 .navBodyleft {
   float:left;
   display:inline-block;
-  padding-top:20px;
+  padding-top:15px;
+  padding-left:10px;
 }
 
 .navBodyright {
   float:right;
   display:inline-block;
-  padding-top:25px;
-  padding-right:20px;
+  text-align:right;
+  padding-top:20px;
+  padding-right:10px;
 }
 
 .navHeadLogo {
@@ -62,12 +50,21 @@ nav {
   vertical-align: top;
 }
 
+hr {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
 .headshot {
   float:left;
   vertical-align:top;
-  padding-right:10px;
 }
 
+.container {
+  width: 900px;
+  margin: 0 auto
+}
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 28px;
@@ -88,120 +85,82 @@ h1 {
   text-indent: 15px;
 }
 
-.section4 {
-  clear: left;
+.section3 p{
+  font-family: 'comic-sans', sans-serif;
+  margin-left: 100px;
 }
 
-.section4 img{
-  display: inline-block;
-  float: left;
-  height: 60px;
-  width: 60px;
-}
-.together {
-  padding-right: 15px;
-  margin-top:0px;
-  display: inline-block;
-  float: left;
+.section3{
+  background-image: url("images/list-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.inline {
-  display:inline-block;
-}
+.left{
 
-}
-button {
-  display: inline-block;
-  float: right;
-  background-color: rgb(148,48,4);
-  height: 32px;
-  width: 135px;
-  border: none;
-  color: white;
-}
-.footer {
-  margin-top: 160px;
-  font-size: 8px;
-  color: grey;
-  text-align: center;
-}
-#fork {
-  height: 20px;
-  width: 20px;
-  opacity: 0.5;
-}
-
-div.section1 {
-  padding-top:50px;
-  height:70px;
-}
-
-img.chocimg {
-  width:100%;
-  wid
-}
-
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 28px;
-  line-height:5px;
-  margin-bottom:10px;
-}
-#Asap {
-  display: inline;
   float:left;
-  font-family: 'Asap', sans-serif;
-  font-size: 8px;
-  color: grey;
-}
-#print {
-  display: inline;
-  float: right;
-}
-.section2 p{
-  text-indent: 10px;
-  font-family:'Georgia', serif;
-  font-size: 14px;
-  line-height: 20px;;
-  color:#666;
+  padding: 20px;
 }
 
-p.button {
-  text-align:center;
+.right{
+
+  float:right;
+  padding: 20px;
 }
 
-.footer {
-  font-size: 8px;
-  color: grey;
-  text-align: center;
-  .section3 p{
-    font-family: 'comic-sans', sans-serif;
-    margin-left: 100px;
+.section4 {
+  clear:left;
+}
+.section4 img{
+    display: inline-block;
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-top: 25px;
+  }
+  .together {
+    padding-left: 25px;
+    display: inline-block;
+    float: left;
+    width: 550px;
+  }
+  #font{
+    font-size: 14px;
+  }
+  #bold{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  button {
+    display: inline-block;
+    float: left;
+    background-color: rgb(148,48,4);
+    height: 32px;
+    width: 135px;
+    border: none;
+    margin-left: 60px;
+    margin-top: 35px;
+    color: white;
+  }
+  .footer {
+    margin-top: 160px;
+    font-size: 8px;
+    color: grey;
+    text-align: center;
+  }
+  #fork {
+    height: 20px;
+    width: 20px;
+    opacity: 0.5;
   }
 
-  .section3{
-    background-image: url("images/list-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+/*code used from http://webdesign.tutsplus.com/articles/quick-tip-easy-css3-checkboxes-and-radio-buttons--webdesign-8953 */
+/* creating checkbox input lines*/
+input[type="checkbox"] {
   }
 
-  .left{
-    float:left;
-    padding: 20px;
-  }
-
-  .right{
-    float:right;
-    padding: 20px;
-  }
-
-  /*code used from http://webdesign.tutsplus.com/articles/quick-tip-easy-css3-checkboxes-and-radio-buttons--webdesign-8953 */
-  /* creating checkbox input lines*/
-  input[type="checkbox"] {
-  }
-
-  /* design of the checkbox*/
-  input[type="checkbox"] + label span {
+/* design of the checkbox*/
+input[type="checkbox"] + label span {
     display:inline-block;
     width:19px;
     height:19px;
@@ -212,3 +171,4 @@ p.button {
 
   input[type="checkbox"]:checked + label span {
     box-shadow: inset 0 1px 3px rgba(0,0,0,.3);
+}
