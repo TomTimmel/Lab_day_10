@@ -67,6 +67,65 @@ nav {
   padding-right:10px;
 }
 
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+}
+#Asap {
+  display: inline;
+  float:left;
+  font-family: 'Asap', sans-serif;
+  font-size: 8px;
+  color: grey;
+}
+#print {
+  display: inline;
+  float: right;
+  margin-top: 10px;
+}
+.section2 p{
+  text-indent: 15px;
+}
+
+.section4 img{
+  display: inline-block;
+  float: left;
+  height: 60px;
+  width: 60px;
+}
+.together {
+  padding-right: 15px;
+  margin-top:0px;
+  display: inline-block;
+  float: left;
+}
+
+.inline {
+  display:inline-block;
+}
+
+}
+button {
+  display: inline-block;
+  float: right;
+  background-color: rgb(148,48,4);
+  height: 32px;
+  width: 135px;
+  border: none;
+  color: white;
+}
+.footer {
+  margin-top: 160px;
+  font-size: 8px;
+  color: grey;
+  text-align: center;
+}
+#fork {
+  height: 20px;
+  width: 20px;
+  opacity: 0.5;
+}
+
 div.section1 {
   padding-top:50px;
   height:70px;
